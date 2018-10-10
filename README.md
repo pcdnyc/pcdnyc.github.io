@@ -9,10 +9,10 @@
 Made possible by all these lovely people & organizations
 
 ### Communications
-Email: nycpcd [at] gmail [dot] com
-Slack: [PCDNYC](https://pcdnyc.slack.com/messages)
-Twitter: [PCDNYC](http://www.twitter.com/pcdnyc)
-Website: Coming soon!
+* Email: nycpcd [at] gmail [dot] com
+* Slack: [PCDNYC](https://pcdnyc.slack.com/messages)
+* Twitter: [PCDNYC](http://www.twitter.com/pcdnyc)
+* Website: Coming soon!
 
 
 ### Meeting Notes
@@ -25,6 +25,6 @@ Website: Coming soon!
 | 10/14/18      | Next meeting 6pm @ [ITP](https://tisch.nyu.edu/itp/how-to-find-us)                                                                                |
 
 ### References
-_ [PCD LA](https://day.processing.org/)
+- [PCD LA](https://day.processing.org/)
 - [PCD Worldwide](https://day.processing.org/pcd-ww.html)
 - [PCD India](https://processingindia.org/)
