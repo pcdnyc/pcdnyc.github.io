@@ -1,15 +1,37 @@
 body {
-	/* background-color: pink; */
-
+	background-color: rgb(200,200,200);
 	font-family: 'Avenir';
+	padding: 50px;
 }
 
-h1 {
-	text-align: center;
-
+a:link {
+	color: rgb(240,74,284);
 }
-
+a:hover {
+	color: yellow;
+}
 h2 {
 	text-align: center;
 
+}
+
+h3 {
+	text-align: center;
+
+}
+
+.theFloat{
+	float: left;
+	/* margin-right: 15px;
+	margin-bottom: 15px; */
+	width: 40%;
+	height: 40%x;
+	border-radius: 5px;
+	padding: 1em;
+
+}
+.theSpecial {
+  background-color: rgb(30,82,125);
+  padding: 15px;
+  color: white;
 }
