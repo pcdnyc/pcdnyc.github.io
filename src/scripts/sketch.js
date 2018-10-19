@@ -22,6 +22,7 @@ let gradientDir = 90;
 let secondLocation = 35;
 
 function setup() {
+  noCanvas();
   colorMode(HSB);
   body = select('body');
 }
