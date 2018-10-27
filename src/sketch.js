@@ -3,7 +3,7 @@ let body;
 let firstColor = {
   h: 50,
   s: 100,
-  b: 80
+  b: 90
 };
 
 let secondColor = {
@@ -14,17 +14,20 @@ let secondColor = {
 
 let thirdColor = {
   h: 272,
-  s: 50,
-  b: 70
+  s: 70,
+  b: 35
 }
 
-let gradientDir = 90;
+let gradientDir = 30;
 let secondLocation = 35;
+
+let counter = 0;
 
 function setup() {
   noCanvas();
   colorMode(HSB);
   body = select('body');
+  noLoop();
 }
 
 function draw() {
@@ -40,4 +43,20 @@ function draw() {
   // secondLocation = 40 + 20*sin(frameCount / 10000);
 
   // background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 35%, rgba(0,212,255,1) 100%);
+
+  setInterval(cycleText.bind(this, counter), 5000)
+}
+
+
+function cycleText(){
+  const words = ["An awesome ", "A fun ", "A special "];
+
+  let wordVariable = select("#wordVariable");
+  wordVariable.html(words[counter]);
+  
+  if(counter < words.length-1){
+    counter++
+  } else{
+    counter = 0;
+  }
 }

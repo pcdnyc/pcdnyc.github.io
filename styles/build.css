@@ -34,6 +34,9 @@ main, header, footer {
 		max-width: 768px;
 		margin: 0 auto;
 	}
+	.flex-row{
+		flex-direction:column;
+	}
 }
 
 @media (min-width: 768px) {
@@ -55,14 +58,25 @@ main, header, footer {
 	.highlights__item {
 		width: 30%;
 	}
+
+	
+}
+
+.highlights__item h3{
+	height:40px;
 }
 
 /* .info {
-	border-bottom: 2px solid black;
+	color:#5A00B1;
 } */
 
 .info__key {
 	font-weight: bold;
+}
+
+header #logo{
+	width:60px;
+	height:60px;
 }
 
 header {
@@ -70,27 +84,66 @@ header {
 	/* padding-bottom: 10px; */
 }
 
+.pcd-purple{
+	color:#5A00B1;
+	text-shadow: 1px 1px rgb(218, 191, 248);
+}
+
+.pcd-white{
+	color:#FFFFFF;
+	text-shadow: 1px 2px rgb(190, 143, 245);
+}
+
+
+header h1{
+	font-size:3em;
+	color:#5A00B1;
+	text-shadow: 1px 2px #FFFFFF;
+	width:80%;
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	line-height: 1.5em;
+}
+
+.subheader{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-items:center;
+}
+
 .byline {
-	font-size: 1.25rem;
+	font-size: 2.5rem;
+	text-shadow: 0.5px 0.5px rgb(190, 143, 245);
+	width:80%;
 }
 
 .open-call {
 	padding-bottom: 1.17rem;
 }
 
+
+
 .open-call__submit {
 	color: black;
 	text-decoration:  none;
 	padding: 20px;
-	border: 2px solid black;
+	border: 0px solid #FFFFFF;
 	display: inline-block;
-	background-color: #0000FF;
+	background-color: #5A00B1;
 	color: white;
+	text-shadow: none;
+}
+
+a{
+	text-shadow: none;
+	color:#5A00B1;
 }
 
 .open-call__submit:hover {
 	background-color: white;
-	color: black;
+	color: #5A00B1;
 }
 
 .sponsors {
