@@ -7,9 +7,25 @@ a {
 	color: #0000FF;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Muli', sans-serif;
 	letter-spacing: initial;
+}
+
+ul {
+	text-align: left;
+}
+
+.biginfo {
+	font-size: 3em;
+}
+
+p {
+		font-size: 1.2em;
+}
+
+.callout {
+		text-align: center;
 }
 
 body {
@@ -59,8 +75,9 @@ main, header, footer {
 		width: 30%;
 	}
 
-	
+
 }
+
 
 .highlights__item h3{
 	height:40px;
@@ -72,6 +89,10 @@ main, header, footer {
 
 .info__key {
 	font-weight: bold;
+}
+
+.info li {
+	font-size: 1.2em;
 }
 
 header #logo{
@@ -128,7 +149,9 @@ header h1{
 .open-call__submit {
 	color: black;
 	text-decoration:  none;
-	padding: 20px;
+	border-radius: 5px;
+	font-size: 1.3em;
+	padding: 30px;
 	border: 0px solid #FFFFFF;
 	display: inline-block;
 	background-color: #5A00B1;

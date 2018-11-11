@@ -20,8 +20,8 @@ let thirdColor = {
 
 let gradientDir = 30;
 let secondLocation = 35;
-
 let counter = 0;
+let firstColorString, secondColorString, thirdColorString;
 
 function setup() {
   noCanvas();
@@ -31,14 +31,14 @@ function setup() {
 }
 
 function draw() {
-  const firstColorString = `hsl(${firstColor.h},${firstColor.s}%,${firstColor.b}%)`;
-  const secondColorString = `hsl(${secondColor.h},${secondColor.s}%,${secondColor.b}%)`;
-  const thirdColorString = `hsl(${thirdColor.h},${thirdColor.s}%,${thirdColor.b}%)`;
-  // let styleString = `linear-gradient(${gradientDir}deg, ${firstColorString} 0%, ${secondColorString} ${secondLocation}%, ${thirdColorString} 100%)`;
-  let styleString = `linear-gradient(${gradientDir}deg, ${firstColorString} 0%, ${thirdColorString} 100%)`;
+  firstColorString = `hsl(${firstColor.h},${firstColor.s}%,${firstColor.b}%)`;
+  secondColorString = `hsl(${secondColor.h},${secondColor.s}%,${secondColor.b}%)`;
+  thirdColorString = `hsl(${thirdColor.h},${thirdColor.s}%,${thirdColor.b}%)`;
+  let styleString = `linear-gradient(${gradientDir}deg, ${firstColorString} 0%, ${secondColorString} ${secondLocation}%, ${thirdColorString} 100%)`;
+  //let styleString = `linear-gradient(${gradientDir}deg, ${firstColorString} 0%, ${thirdColorString} 100%)`;
   body.style('background', styleString);
   firstColor.h = firstColor.h + random(-0.1, 0.1) % 360;
-  // secondColor.h = secondColor.h + 0.01 % 360;
+   //secondColor.h = secondColor.h + 0.01 % 360;
   gradientDir = gradientDir + random(-0.1, 0.1) % 360;
   // secondLocation = 40 + 20*sin(frameCount / 10000);
 
@@ -53,9 +53,9 @@ function cycleText(){
 
   let wordVariable = select("#wordVariable");
   wordVariable.html(words[counter]);
-  
+
   if(counter < words.length-1){
-    counter++
+    counter++;
   } else{
     counter = 0;
   }
