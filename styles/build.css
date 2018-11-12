@@ -16,6 +16,10 @@ ul {
 	text-align: left;
 }
 
+li {
+	list-style: none;
+}
+
 .biginfo {
 	font-size: 1.5em;
 }
@@ -33,6 +37,7 @@ body {
 	font-family: 'Lora', serif;
 	margin: 0;
 	font-size: 14px;
+   /* background:	linear-gradient( to right top, #ed1cdf, rebeccapurple); */
 }
 
 @media (min-width: 768px) {
