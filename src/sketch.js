@@ -16,7 +16,7 @@ let thirdColor = {
 }
 let gradientDir = 30;
 let secondLocation = 35;
-let counter = 0;
+let wordVariable;
 let firstColorString, secondColorString, thirdColorString;
 
 function setup() {
@@ -38,16 +38,12 @@ function draw() {
   gradientDir = gradientDir + random(-0.1, 0.1) % 360;
   // secondLocation = 40 + 20*sin(frameCount / 10000);
   // background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 35%, rgba(0,212,255,1) 100%);
-  setInterval(cycleText.bind(this, counter), 5000)
+  setInterval(cycleText, 5000)
 }
 
 function cycleText() {
-  const words = ["An awesome ", "A fun ", "A special "];
-  let wordVariable = select("#wordVariable");
-  wordVariable.html(words[counter]);
-  if (counter < words.length - 1) {
-    counter++;
-  } else {
-    counter = 0;
-  }
+  const words = [" setup() and draw() ", " the joys of debugging ", " learning to program ", " createCanvas() ", " Processing ", " p5.js ", " art and the web ", " mousePressed ", " ellipses ", " software literacy ", " coding and culture ", " open source culture ", " creative coding ", " generative design ", " community building ", " radical pedagogy ", " toolbuilding ", " crafting with code ", " game design ", " sound and code ", " interactivity ", " video pixels ", " data visualization ", " mouseX, mouseY "];
+  let choice = int(random(words.length));
+  let wordVar = select('#wordVariable');
+  wordVar.html(words[choice]);
 }
