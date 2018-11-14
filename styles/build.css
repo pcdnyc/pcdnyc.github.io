@@ -3,10 +3,6 @@
 	        box-sizing: border-box;
 }
 
-a {
-	color: #0000FF;
-}
-
 h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Muli', sans-serif;
 	letter-spacing: initial;
@@ -114,6 +110,7 @@ header {
 /*	text-shadow: 1px 1px rgb(218, 191, 248); */
 }
 
+
 .pcd-black{
 	color:#000000;
 }
@@ -168,7 +165,7 @@ header h1{
 
 a{
 	text-shadow: none;
-	color:#5A00B1;
+	color: #FFBFEA;
 }
 
 .open-call__submit:hover {
