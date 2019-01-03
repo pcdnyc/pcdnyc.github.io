@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6, p {
 	letter-spacing: initial;
 }
 
+h1 {
+	font-size: 2.5em;
+}
+
 ul {
 	text-align: left;
 }
@@ -22,6 +26,12 @@ li {
 
 p {
 		font-size: 1.2em;
+}
+
+hr {
+border: 2px dotted;
+border-style: none none dotted;
+color: #fff
 }
 
 .callout {
@@ -163,7 +173,7 @@ header h1{
 	text-shadow: none;
 }
 
-a{
+a {
 	text-shadow: none;
 	color: #FFBFEA;
 }
@@ -173,13 +183,12 @@ a{
 	color: #5A00B1;
 }
 
-.sponsors {
-	border-bottom: 2px solid black;
-	padding-bottom: 1.17rem;
+.profile-photo {
+	width: 30vw;
 }
 
-.about {
-	border-bottom: 2px solid black;
+.sponsors {
+	padding-bottom: 1.17rem;
 }
 
 footer {
