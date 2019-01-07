@@ -48,7 +48,6 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	position: absolute;
   /* margin: 0; */
 }
 
@@ -58,7 +57,7 @@ body {
     position: relative;
      width: 80%;
      height: 0;
-     /* padding-bottom: 56.25%; */
+     padding-bottom: 56.25%;
  }
 
  .content {
