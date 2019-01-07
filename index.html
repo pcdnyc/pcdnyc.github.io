@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	
 	<link href="styles/build.css" rel="stylesheet" type="text/css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,6 +19,7 @@
 			
 			
 			<script language="javascript" type="text/javascript"> 
+			var h = window.innerHeight;
 			function getDocHeight(doc) {
 				doc = doc || document;
 				// stackoverflow.com/questions/1145850/
@@ -51,7 +53,9 @@
  -->
 
 	</header>
-	<iframe src = contents.html width="90%" height="windowHeight" id = 'page' allowfullscreen></iframe>
+	<div class="container">
+	<iframe src = contents.html id = 'page' allowfullscreen class="content"></iframe>
+</div>
 	<!-- <main>
 		<section class="info pcd-white">
 			<h1 class="biginfo">Event Information</h1>
