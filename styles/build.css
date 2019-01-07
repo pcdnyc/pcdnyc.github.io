@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6, p {
 	letter-spacing: initial;
 }
 
+h1 {
+	font-size: 2.5em;
+}
+
 ul {
 	text-align: left;
 }
@@ -22,6 +26,12 @@ li {
 
 p {
 		font-size: 1.2em;
+}
+
+hr {
+border: 2px dotted;
+border-style: none none dotted;
+color: #fff
 }
 
 .callout {
@@ -142,7 +152,11 @@ header {
 
 .pcd-purple{
 	color:#5A00B1;
-/*	text-shadow: 1px 1px rgb(218, 191, 248); */
+	/* text-shadow: 1px 1px rgb(218, 191, 248);  */
+}
+
+.pcd-teal {
+	color:##1BFD84;
 }
 
 
@@ -198,7 +212,7 @@ header h1{
 	text-shadow: none;
 }
 
-a{
+a {
 	text-shadow: none;
 	color: #FFBFEA;
 }
@@ -208,13 +222,13 @@ a{
 	color: #5A00B1;
 }
 
-.sponsors {
-	border-bottom: 2px solid black;
-	padding-bottom: 1.17rem;
+.profile-photo {
+	width: 30vw;
+	padding-top: 7vh;
 }
 
-.about {
-	border-bottom: 2px solid black;
+.sponsors {
+	padding-bottom: 1.17rem;
 }
 
 footer {

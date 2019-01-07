@@ -171,7 +171,10 @@ function cycleText() {
   const words = [" art, code and diversity ", " setup() and draw() ", " the joys of debugging ", " learning to program ", " createCanvas() ", " Processing and p5.js ", " art and the web ", " mousePressed() ", " ellipses and rects ", " software and visual literacy ", " coding and culture ", " open source culture ", " creative coding ", " generative design ", " community building ", " radical pedagogy ", " toolbuilding ", " crafting with code ", " game design ", " sound and code ", " interactivity ", " video pixels ", " data visualization ", " mouseX, mouseY "];
   let choice = int(random(words.length));
   let wordVar = select('#wordVariable');
-  wordVar.html(words[choice]);
+  if (wordVar){
+    //only run on first page (where wordVar exists)
+      wordVar.html(words[choice]);
+  }
 }
 
 function mouseClicked(){
