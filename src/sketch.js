@@ -27,6 +27,7 @@ let secondLocation = 35;
 let wordVariable;
 let firstColorString, secondColorString, thirdColorString;
 
+
 function setup() {
 
 
