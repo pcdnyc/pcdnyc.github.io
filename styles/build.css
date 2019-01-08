@@ -86,6 +86,11 @@ body {
 	body {
 		font-size: 16px;
 	}
+
+	.profile-photo {
+	height: 50vh;
+	padding-top: 7vh;
+  }
 }
 
 main, header, footer {
@@ -225,7 +230,7 @@ a {
 }
 
 .profile-photo {
-	height: 50vh;
+	width: 40vw;
 	padding-top: 7vh;
 }
 
