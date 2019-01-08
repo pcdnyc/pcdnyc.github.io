@@ -235,4 +235,6 @@ a {
 
 footer {
 	padding-top: 1.17rem;
+	justify-content: left;
+	align-items: left;
 }
