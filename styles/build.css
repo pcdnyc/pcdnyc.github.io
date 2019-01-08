@@ -81,16 +81,16 @@ body {
 }
 
 
+.profile-photo {
+	width: 30vw;
+	padding-top: 7vh;
+}
+
 
 @media (min-width: 768px) {
 	body {
 		font-size: 16px;
 	}
-
-	.profile-photo {
-	height: 50vh;
-	padding-top: 7vh;
-  }
 }
 
 main, header, footer {
@@ -227,11 +227,6 @@ a {
 .open-call__submit:hover {
 	background-color: white;
 	color: #5A00B1;
-}
-
-.profile-photo {
-	width: 40vw;
-	padding-top: 7vh;
 }
 
 .sponsors {
