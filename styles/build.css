@@ -3,6 +3,24 @@
 	        box-sizing: border-box;
 }
 
+nav {
+		display: flex;
+		justify-content: space-around;
+		font-family: Verdana, Geneva, sans-serif;
+}
+
+.nav-link {
+	  text-decoration: none;
+		font-size: 1.5em;
+		color: pink;
+		padding: 5px;
+}
+
+.nav-link:hover {
+	  color: gray;
+}
+
+
 h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Muli', sans-serif;
 	letter-spacing: initial;
@@ -84,6 +102,12 @@ body {
 .profile-photo {
 	width: 30vw;
 	padding-top: 7vh;
+}
+
+.group-photo {
+	width: 50vw;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
 }
 
 
@@ -195,7 +219,7 @@ header h1{
 }
 
 .byline {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	text-shadow: 0.5px 0.5px rgb(190, 143, 245);
 	width:80%;
 }
