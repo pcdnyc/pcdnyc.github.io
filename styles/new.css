@@ -21,7 +21,7 @@ nav {
 }
 
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, a {
         font-family: 'Montserrat', sans-serif;
 	letter-spacing: initial;
 }
@@ -45,7 +45,10 @@ li {
 p {
 		font-size: 1.2em;
 }
-
+a {
+	color: deepskyblue;
+	text-decoration: none;
+}
 hr {
 	border: 2px dotted;
 	border-style: none none dotted;
@@ -231,8 +234,6 @@ header h1{
 	padding-bottom: 1.17rem;
 }
 .big-link {
-    color: #1BFD84;
-    text-decoration: none;
     text-shadow: #333 2px 2px;
     font-size: 2.5em;
 }
