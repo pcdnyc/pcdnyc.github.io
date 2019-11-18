@@ -190,7 +190,7 @@ header {
 }
 
 .pcd-teal {
-	color:##1BFD84;
+	color:#1BFD84;
 }
 
 
@@ -230,8 +230,15 @@ header h1{
 .open-call {
 	padding-bottom: 1.17rem;
 }
-
-
+.big-link {
+    color: #1BFD84;
+    text-decoration: none;
+    text-shadow: #333 2px 2px;
+    font-size: 2.5em;
+}
+.big-link:hover {
+    color: #5A00B1;
+}
 
 .open-call__submit {
 	color: black;
