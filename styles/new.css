@@ -49,6 +49,9 @@ a {
 	color: deepskyblue;
 	text-decoration: none;
 }
+a:hover {
+  color:#FFBFEA
+}
 hr {
 	border: 2px dotted;
 	border-style: none none dotted;
@@ -254,10 +257,7 @@ header h1{
 	text-shadow: none;
 }
 
-a {
-	text-shadow: none;
-	color: #FFBFEA;
-}
+
 
 .open-call__submit:hover {
 	background-color: white;
