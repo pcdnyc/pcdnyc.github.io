@@ -46,11 +46,11 @@ p {
 		font-size: 1.2em;
 }
 a {
-	color: deepskyblue;
+	color: #FFBFEA;
 	text-decoration: none;
 }
 a:hover {
-  color:#FFBFEA
+  color:#5A00B1;
 }
 hr {
 	border: 2px dotted;
