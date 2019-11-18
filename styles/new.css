@@ -47,9 +47,10 @@ p {
 }
 
 hr {
-border: 2px dotted;
-border-style: none none dotted;
-color: #fff
+	border: 2px dotted;
+	border-style: none none dotted;
+	color: #fff;
+	margin: 30px 0px;	
 }
 
 .callout {
