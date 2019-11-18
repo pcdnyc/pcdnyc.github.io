@@ -1,43 +1,46 @@
 <!DOCTYPE HTML>
 <html>
 
-<head>
-	<link href="../styles/new.css" rel="stylesheet" type="text/css">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="../images/pcd.png">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Serif+Pro&display=swap" rel="stylesheet">
-</head>
+	<head>
+		<link href="../styles/new.css" rel="stylesheet" type="text/css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>PCD NYC 2020 - Open Call</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/png" href="../images/pcd.png">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Serif+Pro&display=swap" rel="stylesheet">
+	</head>
 
-<body>
-	<header>
-		<h1>
+	<body>
+		<header>
+			<h1>
 			<span class="pcd-white">Processing Community Day // 2020</span>
 			<a href="/"><span class="pcd-purple subheader"> <img id="logo" src="../images/white-background-purple3.png" alt=""> New York City</span></a>
 		</h1>
 
-		<p class="byline pcd-white"><span>Open Call</span>
-		</p>
+			<p class="byline pcd-white"><span>Open Call</span>
+			</p>
 
-	</header>
-	<main>
-		<br>
-		<section class="open-call pcd-white">
-			<h3>Event Date: Saturday February 8, 2020. 10am - 5pm</h3>
-			<h3>Location: <a href="https://www.newschool.edu/university-center/" alt="New School University Center">The New School, University Center</a></h3>
-			<h3>Deadline for submissions: Friday December 20, 11:59pm</h3>
+		</header>
+		<main>
+			<br>
+			<section class="open-call pcd-white">
+				<h3>Event Date: Saturday February 8, 2020. 10am - 5pm</h3>
+				<h3>Location: <a href="https://www.newschool.edu/university-center/" alt="New School University Center">The New School, University Center</a></h3>
+				<h3>Deadline for submissions: Friday December 20, 11:59pm</h3>
 
-			<a class="big-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfPMUYbyVWHbNH85pVBOYFwd3IXrMdq7kPZrlxVdgHWvXi57A/viewform?usp=sf_link" alt="Link to application form">Link to Open Call Application</a>
-		</section>
-		<hr>
-		<section class="pcd-white">
+				<a class="big-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfPMUYbyVWHbNH85pVBOYFwd3IXrMdq7kPZrlxVdgHWvXi57A/viewform?usp=sf_link" alt="Link to application form">Link to Open Call Application</a>
+			</section>
+			<hr>
+			<section class="pcd-white">
 
-		  <p>We welcome artists, programmers, activists, educators, hobbyists from all cultural, educational, and professional backgrounds to submit a proposal for a talk, workshop, performance or facilitated conversation. If you have an idea that doesn’t fit our format, pick the closest one and let us know your idea. We are interested in proposals relating to: <strong>community building, radical pedagogy, art and code, tool-building, and open source software</strong>. Additional areas of interest for this year:</p>
+				<p>We welcome artists, programmers, activists, educators, hobbyists from all cultural, educational, and professional backgrounds to submit a proposal for a talk, workshop, performance or facilitated conversation. If you have an idea that doesn’t fit
+					our format, pick the closest one and let us know your idea. We are interested in proposals relating to: <strong>community building, radical pedagogy, art and code, tool-building, and open source software</strong>. Additional areas of interest for
+					this year:</p>
 
-		  <strong class="pcd-white"><ul>
+				<strong class="pcd-white"><ul id="theList">
 		      <li>Ethics and Code</li>
 		      <li> Community-Driven Technology</li>
 		      <li>Computational Literacy </li>
@@ -51,52 +54,60 @@
 		  </strong></ul>
 
 
-		  <p>Our community is inspired by Processing and p5.js but proposals need not be limited to these tools.</p>
-		  <p><strong>Interested in making a proposal but need help or feedback on your idea? Get in contact by the deadline and we'll pair you up with a mentor to work with you.    </strong></p>
+				<p>Our community is inspired by Processing and p5.js but proposals need not be limited to these tools.</p>
+				<p><strong>Interested in making a proposal but need help or feedback on your idea? Get in contact by the deadline and we'll pair you up with a mentor to work with you.    </strong></p>
 
-			<hr>
-		      <h2>Types of Proposals</h2>
-			<h3>Talk</h3>
-			<p>Talk about your work, a concept, research, a project or other endeavor related to the themes of the Processing community. Your talk should be 30 minutes to an hour, including a Q & A with the audience.
-			</p>
+				<hr>
+				<h2>Types of Proposals</h2>
+				<h3>Talk</h3>
+				<p>Talk about your work, a concept, research, a project or other endeavor related to the themes of the Processing community. Your talk should be 30 minutes to an hour, including a Q & A with the audience.
+				</p>
 
-			<h3>Hands-on Workshops and Large Classes</h3>
-			<p>We are looking for a variety of workshops and classes, including non-coding and hands-on sessions. Workshops and classes should last one hour and 15 minutes with , including about 15 minutes of clean-up and time for reflection. Workshops can be open to a broad community, beginner focused, or on an advanced topic. Hands-On workshops are for a smaller group of people (max 25) and typically require materials for individual participants. Large classes can have up to 100+ attendees following along on their laptops in a larger space. In workshops and classes we can help provide volunteer support but also encourage applying with a co-facilitator or two.
-			</p>
+				<h3>Hands-on Workshops and Large Classes</h3>
+				<p>We are looking for a variety of workshops and classes, including non-coding and hands-on sessions. Workshops and classes should last one hour and 15 minutes with , including about 15 minutes of clean-up and time for reflection. Workshops can be open
+					to a broad community, beginner focused, or on an advanced topic. Hands-On workshops are for a smaller group of people (max 25) and typically require materials for individual participants. Large classes can have up to 100+ attendees following along
+					on their laptops in a larger space. In workshops and classes we can help provide volunteer support but also encourage applying with a co-facilitator or two.
+				</p>
 
-			<h3>Panel or Facilitated Conversation</h3>
-			<p>This can take on multiple forms. You can lead a conversation with the entire audience on a particular topic. You can invite other guests and lead a formal panel. Either way, a portion of your session should be dedicated to discussion with your attendees.
-			</p>
-			
-	    		<h3>Performance</h3>
-			<p>We will close the event with a lineup of performances that use creative technology to interact with a live audience in new ways. Performances can range from ~10-30 minutes long, please let us know the expected runtime of your performance and any setup needs in your submission.
-			</p>
-			<hr>
-			<h2>Inclusion at Processing Community Day NYC</h2>
-			<p><em>Note: this is an evolving document subject to refinement and feedback. Have something you'd like to share with us? Please be in touch.</em></p>
-			<p>We encourage applications from under-represented minorities, including folks of under-represented genders, individuals from disadvantaged backgrounds, under-represented racial or ethnic groups, individuals with disabilities, or who are otherwise marginalized. </p>
-			</p>
+				<h3>Panel or Facilitated Conversation</h3>
+				<p>This can take on multiple forms. You can lead a conversation with the entire audience on a particular topic. You can invite other guests and lead a formal panel. Either way, a portion of your session should be dedicated to discussion with your attendees.
+				</p>
 
-			<h3>Accessibility</h3>
-			<p>Processing Community Day NYC 2020 will be held at The New School Event Center. Our venues are wheelchair-accessible, and we will provide reserved seating for attendees with mobility devices. At this time, we are unable to provide realtime captioning at our event. Have questions about other accessibility needs? Please be in touch.</p>
-			<h3>Families</h3>
-			<p>Parents are welcomed and encouraged to bring children to our conference. Children under 12 should be accompanied by a parent or guardian.  Our venue is all-ages. Our venue includes a dedicated private room for breastfeeding and pumping.
-			</p>
-			<p>We strive to create a safe and welcoming environment for all attendees. We will be enforcing the <a href="https://drive.google.com/file/d/1W7KE9ROu5sSc_lkPX0smPkox_t-BYu-G/view" target="_blank">Conference Code of Conduct.</a></p>
-			<hr>
-			<h2>Support</h2>
-			<p>Processing Community Day NYC is an independent all volunteer-organized event in cooperation with hundreds of locally-organized nodes participating in <a href="http://day.processing.org" alt="PCD Worldwide website">Processing Community Day Worldwide</a>. The New School is providing hosting support, with additional funding from Code + Liberal Arts at Eugene Lang. Speakers and workshop leaders will receive honorariums for their time, based on fundraising, sponsorships and event attendance. Additional materials and equipment will be provided for workshops and talks when possible.
-			</p>
-			<h3>Sponsorship</h3>
-			<p>Interested in supporting art, code and diversity in New York? Our 2019 conference featured 24 individual events, 50+ speakers, and 250 attendees. We provided breakfast, boxed lunches and snacks for everyone. And we produced a welcoming conference for professionals, artists, students, parents, teachers, learners, programmers, activists, organizers and more. Sponsorship helps us make this event accessible to a wider community. </p>
+				<h3>Performance</h3>
+				<p>We will close the event with a lineup of performances that use creative technology to interact with a live audience in new ways. Performances can range from ~10-30 minutes long, please let us know the expected runtime of your performance and any setup
+					needs in your submission.
+				</p>
+				<hr>
+				<h2>Inclusion at Processing Community Day NYC</h2>
+				<p><em>Note: this is an evolving document subject to refinement and feedback. Have something you'd like to share with us? Please be in touch.</em></p>
+				<p>We encourage applications from under-represented minorities, including folks of under-represented genders, individuals from disadvantaged backgrounds, under-represented racial or ethnic groups, individuals with disabilities, or who are otherwise marginalized.
+				</p>
+				</p>
 
-			<p>Have a question not answered here? <strong>Interested in sponsorship?</strong> <a href="mailto:processing.nyc@gmail.com" target="_blank">Get in touch</a>.</p>
-		</section>
+				<h3>Accessibility</h3>
+				<p>Processing Community Day NYC 2020 will be held at The New School Event Center. Our venues are wheelchair-accessible, and we will provide reserved seating for attendees with mobility devices. At this time, we are unable to provide realtime captioning
+					at our event. Have questions about other accessibility needs? Please be in touch.</p>
+				<h3>Families</h3>
+				<p>Parents are welcomed and encouraged to bring children to our conference. Children under 12 should be accompanied by a parent or guardian. Our venue is all-ages. Our venue includes a dedicated private room for breastfeeding and pumping.
+				</p>
+				<p>We strive to create a safe and welcoming environment for all attendees. We will be enforcing the <a href="https://drive.google.com/file/d/1W7KE9ROu5sSc_lkPX0smPkox_t-BYu-G/view" target="_blank">Conference Code of Conduct.</a></p>
+				<hr>
+				<h2>Support</h2>
+				<p>Processing Community Day NYC is an independent all volunteer-organized event in cooperation with hundreds of locally-organized nodes participating in <a href="http://day.processing.org" alt="PCD Worldwide website">Processing Community Day Worldwide</a>.
+					The New School is providing hosting support, with additional funding from Code + Liberal Arts at Eugene Lang. Speakers and workshop leaders will receive honorariums for their time, based on fundraising, sponsorships and event attendance. Additional
+					materials and equipment will be provided for workshops and talks when possible.
+				</p>
+				<h3>Sponsorship</h3>
+				<p>Interested in supporting art, code and diversity in New York? Our 2019 conference featured 24 individual events, 50+ speakers, and 250 attendees. We provided breakfast, boxed lunches and snacks for everyone. And we produced a welcoming conference
+					for professionals, artists, students, parents, teachers, learners, programmers, activists, organizers and more. Sponsorship helps us make this event accessible to a wider community. </p>
+
+				<p>Have a question not answered here? <strong>Interested in sponsorship?</strong> <a href="mailto:processing.nyc@gmail.com" target="_blank">Get in touch</a>.</p>
+			</section>
 
 
 
-	</main>
+		</main>
 
-</body>
+	</body>
 
 </html>

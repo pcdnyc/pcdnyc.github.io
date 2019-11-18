@@ -41,7 +41,9 @@ li {
 .biginfo {
 	font-size: 1.5em;
 }
-
+#theList {
+	letter-spacing: 2px;
+}
 p {
 		font-size: 1.2em;
 }
@@ -57,7 +59,7 @@ hr {
 	border: 2px dotted;
 	border-style: none none dotted;
 	color: #fff;
-	margin: 30px 0px;	
+	margin: 30px 0px;
 }
 
 .callout {
@@ -95,7 +97,7 @@ body {
   /* margin: 0; */
 }
 
-@keyframes grad { 
+@keyframes grad {
     0%{background-position:0% 43%}
     50%{background-position:100% 58%}
     100%{background-position:0% 43%}
@@ -197,7 +199,7 @@ header #logo{
 
 header {
 	border-bottom: 2px dotted rebeccapurple;
-	
+
 	/* padding-bottom: 10px; */
 }
 
