@@ -240,9 +240,7 @@ header h1{
     text-shadow: #333 2px 2px;
     font-size: 2.5em;
 }
-.big-link:hover {
-    color: #5A00B1;
-}
+
 
 .open-call__submit {
 	color: black;
