@@ -125,7 +125,7 @@ main, header, footer {
 
 @media (min-width: 768px) {
 	main, header, footer {
-		max-width: 768px;
+		width: 768px;
 		margin: 0 auto;
 	}
 	.flex-row{
@@ -180,6 +180,7 @@ header #logo{
 
 header {
 	border-bottom: 2px dotted rebeccapurple;
+	
 	/* padding-bottom: 10px; */
 }
 
