@@ -86,7 +86,7 @@ body {
 	background-size: cover;
 	background-position: center; */
 /*Todds animated background 	 */
-	background: linear-gradient(223deg, #22d4a6, #22c3d4, #fd70f7, #eee8b6);
+	background: linear-gradient(223deg, #158467, #22c3d4, #D402CA, #8C8021);
 	background-size: 800% 800%;
 	animation: grad 31s ease infinite;
 /*End todds animated background 	 */
