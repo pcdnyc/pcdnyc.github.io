@@ -1,6 +1,6 @@
-# Processing Community Day 2019
+# Processing Community Day NYC
 
-For all the latest information about Processing Community Day @ NYC 2019, please see our website:
+For all the latest information about Processing Community Day @ NYC, please see our website:
 
 🔗 [https://pcdnyc.github.io/](https://pcdnyc.github.io/)
 
